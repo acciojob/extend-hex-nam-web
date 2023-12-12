@@ -9,7 +9,7 @@ const extendHex = (shortHex) => {
 
   // Extend each color component to two characters
   const fullHex = `#${r}${r}${g}${g}${b}${b}`;
-
+	return fullHex.toUpperCase(); 
 };
 
 // Do not change the code below.
